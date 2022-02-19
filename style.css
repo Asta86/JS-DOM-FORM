@@ -1,0 +1,37 @@
+h1{
+    font-size: 20px;
+}
+body {
+    background: #272222; color: rgba(29, 1, 1, 0.867); font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    position: fixed;
+    left: 30%;
+    border-radius: 8px;
+    background: #e2e0df;
+    width: 300px;
+    margin: 15px auto;
+    padding: 20px 40px;
+    display: block;
+    border: 1px solid #dddd;
+    box-shadow: 2px 2px 20px #dddd;
+}
+body input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #dddd;
+}
+body input:focus{
+    border-color: #027bc2;
+    outline: none;
+}
+body button{
+    background: #027bc2;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
